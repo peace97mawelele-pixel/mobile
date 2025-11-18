@@ -31,12 +31,3 @@ Would be great if you can help with resolving known issues and planned improveme
 <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
-<!-- Search widget element is not visible by default -->
-<gen-search-widget
-  configId="2d70f8af-d80d-4406-a3dd-76166b43fe22"
-  location="us"
-  triggerId="searchWidgetTrigger">
-</gen-search-widget>
-
-<!-- Element that opens the widget on click. It does not have to be an input -->
-<input placeholder="Search here" id="searchWidgetTrigger" />
